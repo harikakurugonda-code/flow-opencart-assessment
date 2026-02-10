@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCart.UIControllers", "OpenCart.UIControllers\OpenCart.UIControllers.csproj", "{C110F6B2-6331-4F49-A5C0-C140C9B04D85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCart.UITests", "OpenCart.UITests\OpenCart.UITests.csproj", "{930A5596-82A7-43AB-BA34-92E1D6178384}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C110F6B2-6331-4F49-A5C0-C140C9B04D85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C110F6B2-6331-4F49-A5C0-C140C9B04D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C110F6B2-6331-4F49-A5C0-C140C9B04D85}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C110F6B2-6331-4F49-A5C0-C140C9B04D85}.Debug|x64.Build.0 = Debug|Any CPU
+		{C110F6B2-6331-4F49-A5C0-C140C9B04D85}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C110F6B2-6331-4F49-A5C0-C140C9B04D85}.Debug|x86.Build.0 = Debug|Any CPU
+		{C110F6B2-6331-4F49-A5C0-C140C9B04D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C110F6B2-6331-4F49-A5C0-C140C9B04D85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C110F6B2-6331-4F49-A5C0-C140C9B04D85}.Release|x64.ActiveCfg = Release|Any CPU
+		{C110F6B2-6331-4F49-A5C0-C140C9B04D85}.Release|x64.Build.0 = Release|Any CPU
+		{C110F6B2-6331-4F49-A5C0-C140C9B04D85}.Release|x86.ActiveCfg = Release|Any CPU
+		{C110F6B2-6331-4F49-A5C0-C140C9B04D85}.Release|x86.Build.0 = Release|Any CPU
+		{930A5596-82A7-43AB-BA34-92E1D6178384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{930A5596-82A7-43AB-BA34-92E1D6178384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{930A5596-82A7-43AB-BA34-92E1D6178384}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{930A5596-82A7-43AB-BA34-92E1D6178384}.Debug|x64.Build.0 = Debug|Any CPU
+		{930A5596-82A7-43AB-BA34-92E1D6178384}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{930A5596-82A7-43AB-BA34-92E1D6178384}.Debug|x86.Build.0 = Debug|Any CPU
+		{930A5596-82A7-43AB-BA34-92E1D6178384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{930A5596-82A7-43AB-BA34-92E1D6178384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{930A5596-82A7-43AB-BA34-92E1D6178384}.Release|x64.ActiveCfg = Release|Any CPU
+		{930A5596-82A7-43AB-BA34-92E1D6178384}.Release|x64.Build.0 = Release|Any CPU
+		{930A5596-82A7-43AB-BA34-92E1D6178384}.Release|x86.ActiveCfg = Release|Any CPU
+		{930A5596-82A7-43AB-BA34-92E1D6178384}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
