@@ -5,8 +5,12 @@ using OpenCartControllers.Pages.Security;
 
 namespace OpenCart.UIControllers.Controllers.Security
 {
-   public class SecurityController : ControllerBase
+   public class SecurityController 
    {
+      protected static void WaitForPageLoad(int timeoutSeconds = 10)
+      {
+         ControllerCommon.WaitForPageLoad(timeoutSeconds);
+      }
       public static void NavigateToRegistration()
       {
          ControllerCommon.WebDriver.Navigate().GoToUrl(

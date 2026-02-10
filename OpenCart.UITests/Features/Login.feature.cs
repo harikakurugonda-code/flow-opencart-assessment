@@ -77,10 +77,12 @@ namespace OpenCart.UITests.Features
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Successful login with valid credentials")]
         [NUnit.Framework.CategoryAttribute("positive")]
+        [NUnit.Framework.CategoryAttribute("smoke")]
         public void SuccessfulLoginWithValidCredentials()
         {
             string[] tagsOfScenario = new string[] {
-                    "positive"};
+                    "positive",
+                    "smoke"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Successful login with valid credentials", null, tagsOfScenario, argumentsOfScenario, featureTags);
 #line 7

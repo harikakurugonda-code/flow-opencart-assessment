@@ -3,7 +3,7 @@ Feature: User Registration
   I want to register an account
   So that I can shop on the website
 
-  @positive 
+  @smoke 
   Scenario: Successful registration with valid data
     Given I am on the Registration page
     When I register with valid user details

@@ -77,10 +77,12 @@ namespace OpenCart.UITests.Features
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Successful logout after login")]
         [NUnit.Framework.CategoryAttribute("positive")]
+        [NUnit.Framework.CategoryAttribute("smoke")]
         public void SuccessfulLogoutAfterLogin()
         {
             string[] tagsOfScenario = new string[] {
-                    "positive"};
+                    "positive",
+                    "smoke"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Successful logout after login", null, tagsOfScenario, argumentsOfScenario, featureTags);
 #line 7

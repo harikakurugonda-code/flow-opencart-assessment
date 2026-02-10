@@ -4,8 +4,7 @@ Open Cart Registration and Authentication
 - **Language**: C# (.NET 8)
 - **UI Automation**: Selenium WebDriver
 - **Test Framework**: NUnit
-- **BDD Framework**: SpecFlow (Gherkin feature files)
-- **Assertions**: FluentAssertions
+- **BDD Framework**: SpecFlow 
 - **Design Pattern**: Page Object Model (POM)
 
 ## Project Structure
@@ -17,44 +16,35 @@ OpenCart.UITests.sln
 |   |   |-- ControllerCommon.cs          (WebDriver, BaseUrl, waits)
 |   |-- Pages/
 |   |   |-- HomePage.cs                  (nav menu elements)
-|   |   |-- Security/
-|   |       |-- LoginPage.cs             (login form elements)
-|   |       |-- RegisterPage.cs          (registration form elements)
-|   |       |-- ForgotPasswordPage.cs
+|   |   |-- LoginPage.cs                (login form elements)
+|   |   |-- RegisterPage.cs             (registration form elements)
+|   |   |-- ForgotPasswordPage.cs
 |   |-- Controllers/
-|       |-- ControllerBase.cs
-|       |-- Security/
 |           |-- SecurityController.cs    (login, register, logout actions)
 |
 |-- OpenCart.UITests/                    (BDD Test Project)
-    |-- UITests.cs                       (browser setup/teardown hooks)
+    |-- UITests.cs                       (browser setup/teardown)
     |-- Tests/
     |   |-- BrowserStartup.cs            (Chrome initialization)
     |   |-- BaseTester.cs                (shared test data)
-    |   |-- Security/
+    |   |-- WebPage/
     |       |-- RegistrationSteps.cs     (registration step definitions)
     |       |-- LoginSteps.cs            (login step definitions)
     |       |-- LogoutSteps.cs           (logout step definitions)
     |-- Features/
-        |-- Registration.feature         (8 BDD scenarios)
-        |-- Login.feature                (5 BDD scenarios)
-        |-- Logout.feature               (1 BDD scenario)
+        |-- Registration.feature         
+        |-- Login.feature                
+        |-- Logout.feature               
 ```
 
 ## Prerequisites
-1. .NET 8 SDK - https://dotnet.microsoft.com/download/dotnet/8.0
+1. .NET 8 SDK
 2. Google Chrome (latest version)
 
 ## How to Run
-
-### Command Line
-git clone https://github.com/YOUR_USERNAME/opencart-sdet-assignment.git
-cd opencart-sdet-assignment
-
-dotnet build OpenCart.UITests.sln
-
-
 ### Visual Studio
-1. Open `OpenCart.UITests.sln`
-2. Build (Ctrl+Shift+B)
-3. Test Explorer (Test > Test Explorer) > Run All
+1. Install Allure CLI
+2. Open `OpenCart.UITests.sln`
+3. Build 
+4. Test Explorer > Run All
+5. Generate report(OpenCart.UITests/bin/Debug/net8.0/allure-results)

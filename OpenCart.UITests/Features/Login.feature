@@ -3,7 +3,7 @@ Feature: User Login
   I want to login to my account
   So that I can access my account features
 
-  @positive 
+  @positive @smoke
   Scenario: Successful login with valid credentials
     Given I have a registered account
     And I am on the Login page

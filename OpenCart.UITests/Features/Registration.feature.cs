@@ -76,11 +76,11 @@ namespace OpenCart.UITests.Features
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Successful registration with valid data")]
-        [NUnit.Framework.CategoryAttribute("positive")]
+        [NUnit.Framework.CategoryAttribute("smoke")]
         public void SuccessfulRegistrationWithValidData()
         {
             string[] tagsOfScenario = new string[] {
-                    "positive"};
+                    "smoke"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Successful registration with valid data", null, tagsOfScenario, argumentsOfScenario, featureTags);
 #line 7

@@ -3,7 +3,7 @@ Feature: User Logout
   I want to logout from my account
   So that my session is ended securely
 
-  @positive 
+  @positive @smoke
   Scenario: Successful logout after login
     Given I am logged into my account
     When I click logout
